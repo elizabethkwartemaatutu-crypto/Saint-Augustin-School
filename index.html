@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saint Augustin's School | Home</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand" aria-label="Saint Augustin's School Home">
+        <img src="Images/logo.png" alt="Saint Augustin's School Logo" class="logo">
+      </a>
+      <h1 class="school-name">SAINT AUGUSTIN'S SCHOOL</h1>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-slider" aria-label="School highlights">
+      <div class="slider-track" id="sliderTrack">
+        <img src="Images/1.jpg" alt="Students in class activity" class="slide active">
+        <img src="Images/2.jpg" alt="School event celebration" class="slide">
+        <img src="Images/3.jpg" alt="Students learning together" class="slide">
+        <img src="Images/4.jpg" alt="Sports and recreation" class="slide">
+        <img src="Images/5.jpg" alt="Creative arts presentation" class="slide">
+        <img src="Images/6.jpg" alt="Campus community moment" class="slide">
+      </div>
+      <button class="slider-btn prev" id="prevBtn" aria-label="Previous slide">&#10094;</button>
+      <button class="slider-btn next" id="nextBtn" aria-label="Next slide">&#10095;</button>
+      <div class="slider-dots" id="sliderDots"></div>
+      <div class="hero-overlay">
+        <h2>Building Character, Inspiring Excellence</h2>
+        <p>Where every learner is equipped to thrive academically, socially, and morally.</p>
+      </div>
+    </section>
+
+    <section class="activities container" aria-labelledby="activitiesTitle">
+      <div class="activities-head">
+        <h2 id="activitiesTitle">Our School Activities</h2>
+        <p class="section-intro">A balanced school life where learning, leadership, creativity, and discipline come together every day.</p>
+      </div>
+
+      <div class="activity-summary">
+        <article class="summary-card">
+          <h3>35+</h3>
+          <p>Weekly co-curricular sessions across academics, sports, and arts.</p>
+        </article>
+        <article class="summary-card">
+          <h3>12</h3>
+          <p>Student-led clubs encouraging innovation, confidence, and teamwork.</p>
+        </article>
+        <article class="summary-card">
+          <h3>100%</h3>
+          <p>Focus on character formation through mentorship and service learning.</p>
+        </article>
+      </div>
+
+      <ol class="activity-list stylish-list">
+        <li>
+          <strong>Morning Assembly and Reflection</strong>
+          <p>Students begin with devotion, leadership talks, and goal-setting to build discipline and a positive mindset.</p>
+        </li>
+        <li>
+          <strong>Science and Innovation Lab</strong>
+          <p>Hands-on experiments, coding basics, and project-based learning that turn classroom ideas into practical solutions.</p>
+        </li>
+        <li>
+          <strong>Sports and Wellness Program</strong>
+          <p>Structured football, basketball, athletics, and fitness sessions that improve teamwork, resilience, and healthy living.</p>
+        </li>
+        <li>
+          <strong>Creative and Performing Arts</strong>
+          <p>Music, drama, fine art, and cultural showcases that help learners express talent and confidence on stage.</p>
+        </li>
+        <li>
+          <strong>Debate and Public Speaking</strong>
+          <p>Debates, presentations, and communication workshops that sharpen critical thinking and persuasive speaking skills.</p>
+        </li>
+        <li>
+          <strong>Community Service and Leadership</strong>
+          <p>Outreach and volunteer programs that nurture empathy, responsibility, and active citizenship in every student.</p>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Saint Augustin's School. All rights reserved.</p>
+      <p>Excellence in Learning, Discipline, and Service.</p>
+      <div class="footer-social" aria-label="School contact and social links">
+        <a class="footer-link email-link" href="mailto:saintaugustin12@gmail.com" aria-label="Send email to Saint Augustin's School">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M3 6.75A2.75 2.75 0 0 1 5.75 4h12.5A2.75 2.75 0 0 1 21 6.75v10.5A2.75 2.75 0 0 1 18.25 20H5.75A2.75 2.75 0 0 1 3 17.25V6.75Zm2.1-.25 6.9 5.16 6.9-5.16H5.1Zm13.4 11V8.2l-5.77 4.31a1.25 1.25 0 0 1-1.46 0L5.5 8.2v9.3c0 .55.45 1 1 1h11c.55 0 1-.45 1-1Z"/>
+          </svg>
+        </a>
+        <a class="footer-link whatsapp-link" href="https://wa.me/233599126966" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 3.5a8.5 8.5 0 0 0-7.37 12.74L3 21l4.9-1.58A8.5 8.5 0 1 0 12 3.5Zm0 15.5a6.95 6.95 0 0 1-3.54-.96l-.25-.15-2.9.93.95-2.82-.16-.28A7 7 0 1 1 12 19Zm3.85-5.15c-.2-.1-1.19-.59-1.38-.66-.18-.07-.31-.1-.44.1-.13.2-.5.66-.62.8-.11.13-.22.15-.42.05-.2-.1-.82-.3-1.56-.95-.58-.52-.97-1.15-1.08-1.35-.11-.2-.01-.3.09-.4.1-.1.2-.23.3-.34.1-.12.13-.2.2-.33.06-.13.03-.25-.02-.35-.05-.1-.44-1.07-.6-1.47-.16-.39-.33-.34-.45-.34h-.38c-.13 0-.35.05-.53.25-.18.2-.68.66-.68 1.6s.7 1.85.8 1.98c.1.13 1.37 2.08 3.32 2.91.47.2.83.31 1.12.39.47.15.9.13 1.24.08.38-.06 1.19-.49 1.35-.96.17-.47.17-.87.12-.96-.04-.1-.18-.15-.38-.25Z"/>
+          </svg>
+        </a>
+        <a class="footer-link facebook-link" href="https://web.facebook.com/people/St-Augustines-RC-JHS-School-Ashaiman/100087876585555/" target="_blank" rel="noopener noreferrer" aria-label="Visit Facebook page">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M13.5 21v-7h2.3l.35-2.73H13.5V9.53c0-.8.22-1.34 1.36-1.34h1.45V5.74c-.25-.03-1.1-.1-2.1-.1-2.07 0-3.49 1.26-3.49 3.57v2.06H8.4V14h2.32v7h2.78Z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+      menuToggle.setAttribute("aria-expanded", String(!expanded));
+      navLinks.classList.toggle("open");
+    });
+
+    const slides = document.querySelectorAll(".slide");
+    const dotsContainer = document.getElementById("sliderDots");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    let currentIndex = 0;
+    let autoPlayTimer;
+
+    function renderDots() {
+      slides.forEach((_, index) => {
+        const dot = document.createElement("button");
+        dot.className = "dot";
+        dot.setAttribute("aria-label", `Go to slide ${index + 1}`);
+        dot.addEventListener("click", () => showSlide(index));
+        dotsContainer.appendChild(dot);
+      });
+    }
+
+    function updateUI() {
+      slides.forEach((slide, index) => {
+        slide.classList.toggle("active", index === currentIndex);
+      });
+      const dots = document.querySelectorAll(".dot");
+      dots.forEach((dot, index) => {
+        dot.classList.toggle("active", index === currentIndex);
+      });
+    }
+
+    function showSlide(index) {
+      currentIndex = (index + slides.length) % slides.length;
+      updateUI();
+      restartAutoPlay();
+    }
+
+    function nextSlide() {
+      showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentIndex - 1);
+    }
+
+    function startAutoPlay() {
+      autoPlayTimer = setInterval(nextSlide, 4500);
+    }
+
+    function restartAutoPlay() {
+      clearInterval(autoPlayTimer);
+      startAutoPlay();
+    }
+
+    prevBtn.addEventListener("click", prevSlide);
+    nextBtn.addEventListener("click", nextSlide);
+
+    renderDots();
+    updateUI();
+    startAutoPlay();
+  </script>
+</body>
+</html>
